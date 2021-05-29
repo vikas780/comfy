@@ -8,10 +8,6 @@ import { CartProvider } from "./context/cart_context";
 import { UserProvider } from "./context/user_context";
 import { Auth0Provider } from "@auth0/auth0-react";
 
-//Domain dev-cjw81cev.us.auth0.com
-// client id XhfjNDredO3IiWa6pOjDv73jqMHETvec
-//{process.env.REACT_APP_AUTH_DOMAIN}
-//{process.env.REACT_APP_CLIENT_ID}
 ReactDOM.render(
   <Auth0Provider
     domain={process.env.REACT_APP_AUTH_DOMAIN}
