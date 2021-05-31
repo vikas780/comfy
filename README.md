@@ -1,3 +1,6 @@
+#### The site is live at:
+https://git-comfy.netlify.app/
+
 #### .env vars
 
 - REACT_APP_AUTH_DOMAIN=
